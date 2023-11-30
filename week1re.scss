@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(253, 216, 222);
+    //position: relative;
+    .mouse{
+        position:fixed ;
+        height: 45px;
+        width: 40px;
+        left: 100px;
+        top: 100px;
+        z-index: 1;
+    }
+}
+.partner3{
+    position:fixed;
+    width: 190px;
+    height: 85px;
+    top: 54pt;
+    left: 30pt;
+}
+.toptext{
+    position: fixed;
+    font-size: 9pt;
+    top: 40pt;
+    left: 43pt;
+    font-family: 'Zen Maru Gothic', serif;
+        text-shadow:
+            1px -1px 0 pink,
+            1px -1px 0 pink,
+            -1px 1px 0 pink,
+            1px 1px 0 pink;
+            color: white;
+}
+.all{
+    width: 700px;
+    height: 1190px;
+    margin: 0 auto; //上下0 左右自己設定
+
+    .area{
+        width: 700px;
+        
+    }
+    .top{
+        height:100px;
+        text-align: center;
+        .topUp{
+            display: flex;
+            justify-content: space-between;
+            width: 700px;
+            height: 40px;
+            .sc{
+                width: 580px;
+                height: 35px;
+                border-radius: 15pt;
+                border: 3px solid rgb(253, 155, 172);
+                margin-top: 5px;
+                margin-left: 25px;
+            }
+            .fa-bars{
+                font-size: 30pt;
+                color:rgb(253, 155, 172) ;
+                margin-top: 5px;
+                margin-right: 20px;
+            }
+        }
+        .textchii{
+            color: white;
+            text-shadow:
+            1px -1px 0 pink,
+            1px -1px 0 pink,
+            -1px 1px 0 pink,
+            1px 1px 0 pink;
+            margin-top: 11px;
+            font-family: 'Zen Maru Gothic', serif;
+        }
+    }
+    
+    .one{
+        height: 330px;
+        display: flex;
+        align-items: center;
+        background-color: rgb(171, 204, 171);
+        .link{
+            height: 316px;
+            width: 50px;
+            background-color:rgb(171, 204, 171);
+            margin-right: 112px;
+            margin-left: 10px;
+            .fa-brands{
+                font-size: 30pt;
+                color: rgb(250, 209, 216) ;
+            }
+            .fa-solid{
+                font-size: 28pt;
+                color: rgb(250, 209, 216) ;
+            }
+            .fa-twitter{
+                margin-top: 30px;
+            }
+            .fa-facebook{
+                margin-top: 30px;
+            }
+            .fa-youtube{
+                margin-top: 30px;
+            }
+            .fa-cart-shopping{
+                margin-top: 30px;
+            }
+        }
+        .oneRight{
+            .topchii{
+                height: 290px;
+                width: 354px;
+                border-radius: 5pt;
+                border: 3px solid pink;
+            }
+        }
+        
+        }
+    }
+    .two{
+        height: 200px;
+        background-color: rgb(171, 204, 171);
+        text-align: center;
+        .two1{
+            height: 104px;
+            display: flex;
+            justify-content:center;
+        .sq{
+            width: 110px;
+            height: 110px;
+            border: 3px solid pink;
+            border-radius: 5pt;
+            
+        }
+        .chiikao{
+            margin-right: 5px;
+        }
+        .chiitohachi{
+            margin-right: 5px;
+        }
+        }
+        h1{
+            margin-bottom: 5px;
+            margin-top: 15px;
+            color: white;
+            text-shadow:
+            1px -1px 0 pink,
+            1px -1px 0 pink,
+            -1px 1px 0 pink,
+            1px 1px 0 pink;
+            font-family: 'Playpen Sans', cursive;
+
+        }
+        p{
+            margin-top: -7px;
+            font-family: 'Zen Maru Gothic', serif;
+        }
+        
+    }
+    .three{
+        height: 350px;
+        background-color: rgb(171, 204, 171);
+        .up{
+        height: 280px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+        align-items: center;
+        .kyara{
+            width: 141px;
+            height: 130px;
+            border-radius: 30pt;
+            border: 3px solid rgb(253, 155, 172);
+        }
+        .chii{
+            background-image: url("./chii.jpg");
+            background-repeat:round;
+            
+        }
+        .hachi{
+            background-image: url("./hachi.jpg");
+            background-repeat:round;
+        }
+        .usagi{
+            background-image: url("./usagi.jpg");
+            background-repeat:round;
+        }
+        .momogann{
+            background-image: url("./momogann.jpg");
+            background-repeat:round;
+        }
+        .kawatetsu{
+            background-image: url("./kawatetsu.jpg");
+            background-repeat:round;
+        }
+        .tetsu{
+            background-image: url("./tetsu.jpg");
+            background-repeat:round;
+        }
+        .rakko{
+            background-image: url("./rako.jpg");
+            background-repeat:round;
+        }
+        .kuri{
+            background-image: url("./kuri.jpg");
+            background-repeat:round;
+        }
+        .kyara1{
+            width: 80px;
+            height: 20px;
+            border: 2px solid rgb(253, 155, 172);
+            background-color: pink;
+            color: white;
+            border-radius: 7pt;
+            margin-left: 27px;
+            margin-top: 98px;
+            font-size: 8pt;
+            }
+        }
+        .more{
+            width: 150px;
+            height: 30px;
+            border: 3px solid rgb(253, 155, 172);
+            background-color: pink;
+            border-radius: 25pt;
+            margin-left: 270px;
+            margin-top: 10px;
+            color: white;
+        }
+    }
+    .four{
+        height: 167px;
+        display: flex;
+        .bad{
+            height: auto;
+            width: auto;
+        }
+    }
+    
+    .footter{
+        height: 35px;
+        text-align: center;
+        font-family: 'Zen Maru Gothic', serif;
+        text-shadow:
+            1px -1px 0 pink,
+            1px -1px 0 pink,
+            -1px 1px 0 pink,
+            1px 1px 0 pink;
+            color: white;
+    }
+

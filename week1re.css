@@ -1,0 +1,232 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(253, 216, 222);
+}
+body .mouse {
+  position: fixed;
+  height: 45px;
+  width: 40px;
+  left: 100px;
+  top: 100px;
+  z-index: 1;
+}
+
+.partner3 {
+  position: fixed;
+  width: 190px;
+  height: 85px;
+  top: 54pt;
+  left: 30pt;
+}
+
+.toptext {
+  position: fixed;
+  font-size: 9pt;
+  top: 40pt;
+  left: 43pt;
+  font-family: "Zen Maru Gothic", serif;
+  text-shadow: 1px -1px 0 pink, 1px -1px 0 pink, -1px 1px 0 pink, 1px 1px 0 pink;
+  color: white;
+}
+
+.all {
+  width: 700px;
+  height: 1190px;
+  margin: 0 auto;
+}
+.all .area {
+  width: 700px;
+}
+.all .top {
+  height: 100px;
+  text-align: center;
+}
+.all .top .topUp {
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  height: 40px;
+}
+.all .top .topUp .sc {
+  width: 580px;
+  height: 35px;
+  border-radius: 15pt;
+  border: 3px solid rgb(253, 155, 172);
+  margin-top: 5px;
+  margin-left: 25px;
+}
+.all .top .topUp .fa-bars {
+  font-size: 30pt;
+  color: rgb(253, 155, 172);
+  margin-top: 5px;
+  margin-right: 20px;
+}
+.all .top .textchii {
+  color: white;
+  text-shadow: 1px -1px 0 pink, 1px -1px 0 pink, -1px 1px 0 pink, 1px 1px 0 pink;
+  margin-top: 11px;
+  font-family: "Zen Maru Gothic", serif;
+}
+.all .one {
+  height: 330px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(171, 204, 171);
+}
+.all .one .link {
+  height: 316px;
+  width: 50px;
+  background-color: rgb(171, 204, 171);
+  margin-right: 112px;
+  margin-left: 10px;
+}
+.all .one .link .fa-brands {
+  font-size: 30pt;
+  color: rgb(250, 209, 216);
+}
+.all .one .link .fa-solid {
+  font-size: 28pt;
+  color: rgb(250, 209, 216);
+}
+.all .one .link .fa-twitter {
+  margin-top: 30px;
+}
+.all .one .link .fa-facebook {
+  margin-top: 30px;
+}
+.all .one .link .fa-youtube {
+  margin-top: 30px;
+}
+.all .one .link .fa-cart-shopping {
+  margin-top: 30px;
+}
+.all .one .oneRight .topchii {
+  height: 290px;
+  width: 354px;
+  border-radius: 5pt;
+  border: 3px solid pink;
+}
+
+.two {
+  height: 200px;
+  background-color: rgb(171, 204, 171);
+  text-align: center;
+}
+.two .two1 {
+  height: 104px;
+  display: flex;
+  justify-content: center;
+}
+.two .two1 .sq {
+  width: 110px;
+  height: 110px;
+  border: 3px solid pink;
+  border-radius: 5pt;
+}
+.two .two1 .chiikao {
+  margin-right: 5px;
+}
+.two .two1 .chiitohachi {
+  margin-right: 5px;
+}
+.two h1 {
+  margin-bottom: 5px;
+  margin-top: 15px;
+  color: white;
+  text-shadow: 1px -1px 0 pink, 1px -1px 0 pink, -1px 1px 0 pink, 1px 1px 0 pink;
+  font-family: "Playpen Sans", cursive;
+}
+.two p {
+  margin-top: -7px;
+  font-family: "Zen Maru Gothic", serif;
+}
+
+.three {
+  height: 350px;
+  background-color: rgb(171, 204, 171);
+}
+.three .up {
+  height: 280px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.three .up .kyara {
+  width: 141px;
+  height: 130px;
+  border-radius: 30pt;
+  border: 3px solid rgb(253, 155, 172);
+}
+.three .up .chii {
+  background-image: url("./chii.jpg");
+  background-repeat: round;
+}
+.three .up .hachi {
+  background-image: url("./hachi.jpg");
+  background-repeat: round;
+}
+.three .up .usagi {
+  background-image: url("./usagi.jpg");
+  background-repeat: round;
+}
+.three .up .momogann {
+  background-image: url("./momogann.jpg");
+  background-repeat: round;
+}
+.three .up .kawatetsu {
+  background-image: url("./kawatetsu.jpg");
+  background-repeat: round;
+}
+.three .up .tetsu {
+  background-image: url("./tetsu.jpg");
+  background-repeat: round;
+}
+.three .up .rakko {
+  background-image: url("./rako.jpg");
+  background-repeat: round;
+}
+.three .up .kuri {
+  background-image: url("./kuri.jpg");
+  background-repeat: round;
+}
+.three .up .kyara1 {
+  width: 80px;
+  height: 20px;
+  border: 2px solid rgb(253, 155, 172);
+  background-color: pink;
+  color: white;
+  border-radius: 7pt;
+  margin-left: 27px;
+  margin-top: 98px;
+  font-size: 8pt;
+}
+.three .more {
+  width: 150px;
+  height: 30px;
+  border: 3px solid rgb(253, 155, 172);
+  background-color: pink;
+  border-radius: 25pt;
+  margin-left: 270px;
+  margin-top: 10px;
+  color: white;
+}
+
+.four {
+  height: 167px;
+  display: flex;
+}
+.four .bad {
+  height: auto;
+  width: auto;
+}
+
+.footter {
+  height: 35px;
+  text-align: center;
+  font-family: "Zen Maru Gothic", serif;
+  text-shadow: 1px -1px 0 pink, 1px -1px 0 pink, -1px 1px 0 pink, 1px 1px 0 pink;
+  color: white;
+}/*# sourceMappingURL=week1re.css.map */
